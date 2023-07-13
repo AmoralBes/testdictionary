@@ -67,6 +67,7 @@ namespace Slovo
                 ws.Cells[i, I].Value = A;
                 i++;
             }
+            wb.Save(gate);
         }
     }
 }
